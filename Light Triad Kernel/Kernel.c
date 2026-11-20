@@ -2,10 +2,15 @@
 #include <string.h>
 #include <stdlib.h> 
 #include <time.h>
+#include "memset.h"
+
 int main() {
-    char user[50] = "Void";
-    char cmd[50] = "";
-    char pswrd[50] = "";
+    char user[50];
+    char cmd[50];
+    char pswrd[50];
+    my_memset(user, 0, 50);
+    my_memset(cmd, 0, 50);
+    my_memset(pswrd, 0, 50);
     char* commands = "Commands:Exit,Help,Troll,Osinfo,,Ps,Cls,Tree,Time,Rmkpswrd,../,Whoami,VERSION";
     printf("\033[0;34m Welcome to Light Triada OS 1.0.2\n");
     printf("     .-----.     \n");
@@ -35,12 +40,12 @@ int main() {
         if (strlen(pswrd) <= 40) {
             break;
         }
-
     }
     printf("Hello User %s\n", user);
     printf("Your password : %s", pswrd);
     while (1) {
-        printf("\n@%s~$",user);
+        my_memset(cmd, 0, 50);
+        printf("\n@%s~$", user);
         scanf_s("%49s", cmd, (unsigned)sizeof(cmd));
         if (strcmp(cmd, "Exit") == 0) {
             printf("XD Gooood Bye My Friend %s :))) XD", user);
@@ -48,9 +53,11 @@ int main() {
         }
         if (strcmp(cmd, "Troll") == 0) {
             printf("BOOO! >:)");
+            continue;
         }
         if (strcmp(cmd, "Help") == 0) {
             printf("%s", commands);
+            continue;
         }
         if (strcmp(cmd, "Osinfo") == 0) {
             printf("\033[0;34m Light triad OS 1.0.2\n");
@@ -62,21 +69,19 @@ int main() {
             printf("  \\           /  \n");
             printf("   '.       .'   \n");
             printf("     '-----'     \033[0m\n");
+            continue;
         }
         if (strcmp(cmd, "Ps") == 0) {
             system("tasklist");
+            continue;
         }
         if (strcmp(cmd, "Cls") == 0) {
             system("Cls");
+            continue;
         }
         if (strcmp(cmd, "Tree") == 0) {
             system("Tree");
-        }
-        if (strcmp(cmd, "Time") == 0) {
-            time_t t = time(NULL);
-            char buf[26];
-            ctime_s(buf, sizeof(buf), &t);
-            printf("Current Time: %s", buf);
+            continue;
         }
         if (strcmp(cmd, "Rmkpswrd") == 0) {
             char pswrdCHECK[50];
@@ -94,22 +99,26 @@ int main() {
                     break;
                 }
             }
+            continue;
         }
         if (strcmp(cmd, "Whoami") == 0) {
             printf("YOU: %s", user);
+            continue;
         }
         if (strcmp(cmd, "VERSION") == 0) {
             printf("#1.0.2#");
+            continue;
         }
         if (strcmp(cmd, "../") == 0) {
             if (strlen(pswrd) > 0) {
                 printf("Your Password: %s", pswrd);
-            }
+            }   
             else {
                 printf("FATAL ERROR\nYOU DONT HAVE PASSWORD");
-            } 
+            }
+            continue;
         }
-
+        printf("Write Help to get help");
     }
     return 0;
 }

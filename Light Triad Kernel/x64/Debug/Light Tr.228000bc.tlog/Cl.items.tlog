@@ -1,2 +1,5 @@
-D:\Projects Visual Studio\Light Triad Kernel\Light Triad Kernel\Kernel.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triad Kernel\x64\Debug\Kernel.obj
-D:\Projects Visual Studio\Light Triad Kernel\Light Triad Kernel\Testnewfunction.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triad Kernel\x64\Debug\Testnewfunction.obj
+D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\CPU.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\x64\Debug\CPU.obj
+D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\Kernel.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\x64\Debug\Kernel.obj
+D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\GPU.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\x64\Debug\GPU.obj
+D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\memset.c;D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\x64\Debug\memset.obj
+D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\memset.h;D:\Projects Visual Studio\Light Triad Kernel\Light Triada OS\Light Triad Kernel\x64\Debug\memset.h.obj

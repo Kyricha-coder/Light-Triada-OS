@@ -139,8 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CPU.c" />
     <ClCompile Include="Kernel.c" />
-    <ClCompile Include="Testnewfunction.c" />
+    <ClCompile Include="GPU.c" />
+    <ClCompile Include="memset.c" />
+    <ClCompile Include="memset.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

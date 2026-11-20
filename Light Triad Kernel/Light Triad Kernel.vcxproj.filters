@@ -18,7 +18,16 @@
     <ClCompile Include="Kernel.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Testnewfunction.c">
+    <ClCompile Include="GPU.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="memset.h">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="memset.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
