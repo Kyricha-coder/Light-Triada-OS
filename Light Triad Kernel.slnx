@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Light Triad Kernel/Light Triad Kernel.vcxproj" Id="228000bc-f233-4f77-868a-325ed6f20576" />
+</Solution>
