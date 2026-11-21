@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h> 
-#include <time.h>
 #include "memset.h"
-
-int main() {
+int main2() {
     char user[50];
     char cmd[50];
     char pswrd[50];

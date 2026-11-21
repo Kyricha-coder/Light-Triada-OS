@@ -30,5 +30,8 @@
     <ClCompile Include="memset.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Test.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

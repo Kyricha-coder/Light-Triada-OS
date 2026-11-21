@@ -144,6 +144,7 @@
     <ClCompile Include="GPU.c" />
     <ClCompile Include="memset.c" />
     <ClCompile Include="memset.h" />
+    <ClCompile Include="Test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

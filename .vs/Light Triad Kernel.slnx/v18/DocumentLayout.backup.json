@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|solutionrelative:Light Triad Kernel\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|solutionrelative:Light Triad Kernel\\Kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|solutionrelative:Light Triad Kernel\\memset.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Memset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|solutionrelative:Light Triad Kernel\\Memset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|solutionrelative:Light Triad Kernel\\Kernel.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228000BC-F233-4F77-868A-325ED6F20576}|Light Triad Kernel\\Light Triad Kernel.vcxproj|D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\CPU.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,32 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Test.c",
+              "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Test.c",
+              "RelativeDocumentMoniker": "Light Triad Kernel\\Test.c",
+              "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Test.c",
+              "RelativeToolTip": "Light Triad Kernel\\Test.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-11-21T07:47:31.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "memset.c",
               "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.c",
               "RelativeDocumentMoniker": "Light Triad Kernel\\memset.c",
-              "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.c*",
-              "RelativeToolTip": "Light Triad Kernel\\memset.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.c",
+              "RelativeToolTip": "Light Triad Kernel\\memset.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-11-20T15:45:00.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "memset.h",
               "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.h",
               "RelativeDocumentMoniker": "Light Triad Kernel\\memset.h",
-              "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.h*",
-              "RelativeToolTip": "Light Triad Kernel\\memset.h*",
+              "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\memset.h",
+              "RelativeToolTip": "Light Triad Kernel\\memset.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-20T15:18:16.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-20T15:18:16.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CPU.c",
               "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\CPU.c",
               "RelativeDocumentMoniker": "Light Triad Kernel\\CPU.c",
@@ -72,20 +88,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Kernel.c",
               "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Kernel.c",
               "RelativeDocumentMoniker": "Light Triad Kernel\\Kernel.c",
               "ToolTip": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\Kernel.c",
               "RelativeToolTip": "Light Triad Kernel\\Kernel.c",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-11-20T10:02:16.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GPU.c",
               "DocumentMoniker": "D:\\Projects Visual Studio\\Light Triad Kernel\\Light Triada OS\\Light Triad Kernel\\GPU.c",
               "RelativeDocumentMoniker": "Light Triad Kernel\\GPU.c",
