@@ -1,2 +1,2 @@
-Light Triada os
+Light Triada OS,
 Commits 3
