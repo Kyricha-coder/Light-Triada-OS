@@ -1,4 +1,2 @@
-\# Light Triada OS
-
-!\[Light Triada OS Mascot](ClownfishMascot.jpg)
-
+Light Triada os
+Commits 3
